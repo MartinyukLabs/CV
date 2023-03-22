@@ -1,0 +1,488 @@
+body {
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+}
+
+.frame-1,
+.frame-1 * {
+  box-sizing: border-box;
+}
+
+.frame-1 {
+  background: #ffffff;
+  width: 893px;
+  height: 1263px;
+  position: relative;
+  overflow: hidden;
+}
+
+.side-panel {
+  width: 349px;
+  height: 1181px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+
+.rectangle-1 {
+  background: #1f395a;
+  width: 349px;
+  height: 1038px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.line-1 {
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 4px 0 0 0;
+  width: 348px;
+  height: 0px;
+  position: absolute;
+  left: 0px;
+  top: 410px;
+}
+
+.line-2 {
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 4px 0 0 0;
+  width: 348px;
+  height: 0px;
+  position: absolute;
+  left: 0px;
+  top: 595px;
+}
+
+.about-me {
+  color: #ffffff;
+  text-align: left;
+  font: 700 32px 'Inter', sans-serif;
+  position: absolute;
+  left: 28px;
+  top: 662px;
+}
+
+.line-4 {
+  position: absolute;
+  left: 200px;
+  top: 682px;
+  overflow: visible;
+}
+
+.english--b1 {
+  color: #ffffff;
+  text-align: left;
+  font: 400 24px 'Inter', sans-serif;
+  position: absolute;
+  left: 54px;
+  top: 743px;
+}
+
+.desc1 {
+  color: #ffffff;
+  text-align: left;
+  font: 400 24px 'Inter', sans-serif;
+  position: absolute;
+  left: 54px;
+  top: 798px;
+}
+
+.polygon-1 {
+  width: 295px;
+  height: 292px;
+  position: absolute;
+  left: 27px;
+  top: 60px;
+}
+
+.contacts {
+  width: 205px;
+  height: 131px;
+  position: absolute;
+  left: 63px;
+  top: 433px;
+  overflow: hidden;
+}
+
+._099-999-99-99 {
+  color: #ffffff;
+  text-align: left;
+  font: 400 20px 'Inter', sans-serif;
+  position: absolute;
+  left: 40px;
+  top: 4px;
+}
+
+.ukraine--kyiv {
+  color: #ffffff;
+  text-align: left;
+  font: 400 20px 'Inter', sans-serif;
+  position: absolute;
+  left: 40px;
+  top: 106px;
+}
+
+.mail-gmail-com {
+  color: #ffffff;
+  text-align: left;
+  font: 400 20px 'Inter', sans-serif;
+  text-decoration: underline;
+  position: absolute;
+  left: 40px;
+  top: 55px;
+}
+
+.---icon--phone- {
+  position: absolute;
+  left: 6px;
+  top: 3px;
+  overflow: visible;
+}
+
+.---icon--envelope-closed- {
+  position: absolute;
+  left: 1px;
+  top: 60px;
+  overflow: visible;
+}
+
+.---icon--map- {
+  position: absolute;
+  left: 1px;
+  top: 103px;
+  overflow: visible;
+}
+
+.vector-1 {
+  position: absolute;
+  left: 0px;
+  top: 1037px;
+  overflow: visible;
+}
+
+.rectangle-2 {
+  background: #1f395a;
+  width: 51px;
+  height: 233px;
+  position: absolute;
+  left: 842px;
+  top: -2px;
+}
+
+.skills {
+  width: 360px;
+  height: 145px;
+  position: absolute;
+  left: 418px;
+  top: 1059px;
+  overflow: hidden;
+}
+
+.textbox {
+  width: 353px;
+  height: 32px;
+  position: absolute;
+  left: 0px;
+  top: 1px;
+  overflow: hidden;
+}
+
+.skills2 {
+  color: #000000;
+  text-align: left;
+  font: 700 32px 'Inter', sans-serif;
+  position: absolute;
+  left: 0px;
+  top: -4px;
+}
+
+.line-3 {
+  border-style: solid;
+  border-color: #38506d;
+  border-width: 3px 0 0 0;
+  width: 265.04px;
+  height: 0px;
+  position: absolute;
+  left: 107px;
+  top: 22px;
+}
+
+.c- {
+  color: #000000;
+  text-align: left;
+  font: 400 20px 'Inter', sans-serif;
+  position: absolute;
+  left: 25px;
+  top: 46px;
+}
+
+.html-css {
+  color: #000000;
+  text-align: left;
+  font: 400 20px 'Inter', sans-serif;
+  position: absolute;
+  left: 136px;
+  top: 50px;
+}
+
+.-net {
+  color: #000000;
+  text-align: left;
+  font: 400 20px 'Inter', sans-serif;
+  position: absolute;
+  left: 23px;
+  top: 84px;
+}
+
+.wpf {
+  color: #000000;
+  text-align: left;
+  font: 400 20px 'Inter', sans-serif;
+  position: absolute;
+  left: 25px;
+  top: 121px;
+}
+
+.js {
+  color: #000000;
+  text-align: left;
+  font: 400 20px 'Inter', sans-serif;
+  position: absolute;
+  left: 136px;
+  top: 84px;
+}
+
+.react {
+  color: #000000;
+  text-align: left;
+  font: 400 20px 'Inter', sans-serif;
+  position: absolute;
+  left: 136px;
+  top: 121px;
+}
+
+.work-experience {
+  width: 469px;
+  height: 553px;
+  position: absolute;
+  left: 399px;
+  top: 297px;
+  overflow: hidden;
+}
+
+.title {
+  width: 466px;
+  height: 32px;
+  position: absolute;
+  left: 3px;
+  top: 2px;
+  overflow: hidden;
+}
+
+.work-experience2 {
+  color: #000000;
+  text-align: left;
+  font: 700 32px 'Inter', sans-serif;
+  position: absolute;
+  left: 0px;
+  top: -4px;
+}
+
+.line-32 {
+  border-style: solid;
+  border-color: #38506d;
+  border-width: 3px 0 0 0;
+  width: 151.12px;
+  height: 0px;
+  position: absolute;
+  left: 300px;
+  top: 21px;
+}
+
+.project1 {
+  width: 466px;
+  height: 268px;
+  position: absolute;
+  left: 3px;
+  top: 53px;
+  overflow: hidden;
+}
+
+._2022-november---december-2022 {
+  color: #000000;
+  text-align: left;
+  font: 400 20px 'Inter', sans-serif;
+  position: absolute;
+  left: 125px;
+  top: 11px;
+}
+
+.s-movies {
+  color: #000000;
+  text-align: left;
+  font: 700 24px 'Inter', sans-serif;
+  position: absolute;
+  left: 3px;
+  top: 6px;
+}
+
+.desc3 {
+  color: #000000;
+  text-align: left;
+  font: 400 20px 'Inter', sans-serif;
+  position: absolute;
+  left: 40px;
+  top: 52px;
+}
+
+.project2 {
+  width: 466px;
+  height: 196px;
+  position: absolute;
+  left: 6px;
+  top: 340px;
+  overflow: hidden;
+}
+
+._2022-september---november-2022 {
+  color: #000000;
+  text-align: left;
+  font: 400 20px 'Inter', sans-serif;
+  position: absolute;
+  left: 115px;
+  top: 11px;
+}
+
+.steam {
+  color: #000000;
+  text-align: left;
+  font: 700 24px 'Inter', sans-serif;
+  position: absolute;
+  left: 3px;
+  top: 6px;
+}
+
+.desc2 {
+  color: #000000;
+  text-align: left;
+  font: 400 20px 'Inter', sans-serif;
+  position: absolute;
+  left: 40px;
+  top: 52px;
+  width: 426px;
+}
+
+.education {
+  width: 488px;
+  height: 163px;
+  position: absolute;
+  left: 399px;
+  top: 873px;
+  overflow: hidden;
+}
+
+.textbox2 {
+  width: 466px;
+  height: 32px;
+  position: absolute;
+  left: 5px;
+  top: 6px;
+  overflow: hidden;
+}
+
+.education2 {
+  color: #000000;
+  text-align: left;
+  font: 700 32px 'Inter', sans-serif;
+  position: absolute;
+  left: 0px;
+  top: -4px;
+}
+
+.line-33 {
+  border-style: solid;
+  border-color: #38506d;
+  border-width: 3px 0 0 0;
+  width: 265.04px;
+  height: 0px;
+  position: absolute;
+  left: 186px;
+  top: 21.5px;
+}
+
+.kyiv-national-university-of-trade-and-economics {
+  color: #000000;
+  text-align: left;
+  font: 400 24px 'Inter', sans-serif;
+  position: absolute;
+  left: 19px;
+  top: 56px;
+}
+
+._2021-2025 {
+  color: #000000;
+  text-align: left;
+  font: 400 24px 'Inter', sans-serif;
+  position: absolute;
+  left: 331px;
+  top: 65px;
+}
+
+.bachelor-of-software-engineering {
+  color: #000000;
+  text-align: left;
+  font: 700 24px 'Inter', sans-serif;
+  position: absolute;
+  left: 19px;
+  top: 121px;
+}
+
+.name---position {
+  width: 355px;
+  height: 200px;
+  position: absolute;
+  left: 423px;
+  top: 31px;
+  overflow: hidden;
+}
+
+.ivan-martinyuk {
+  color: #000000;
+  text-align: left;
+  font: 900 italic 64px 'Inter', sans-serif;
+  position: absolute;
+  top: 3px;
+}
+
+.textbox3 {
+  width: 307px;
+  height: 32px;
+  position: absolute;
+  left: 4px;
+  top: 168px;
+  overflow: hidden;
+}
+
+.-net-developer {
+  color: #000000;
+  text-align: left;
+  font: 400 24px 'Inter', sans-serif;
+  position: absolute;
+  left: 3px;
+  top: 3px;
+}
+
+.line-34 {
+  border-style: solid;
+  border-color: #1f395a;
+  border-width: 7px 0 0 0;
+  width: 92px;
+  height: 0px;
+  position: absolute;
+  left: 207px;
+  top: 22px;
+}
